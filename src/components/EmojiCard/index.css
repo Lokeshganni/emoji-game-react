@@ -2,6 +2,10 @@ li {
   list-style-type: none;
 }
 
+li:active {
+  transform: scale(0.96);
+}
+
 .emoji-card-container {
   background-color: #ffffff33;
   border: 3px solid #ffffff30;
@@ -9,6 +13,11 @@ li {
   padding: 15px;
   margin: 5px;
   cursor: pointer;
+}
+
+.emoji-card-container:hover {
+  box-shadow: 0 0 8px #d5f7de;
+  transform: scale(1.01);
 }
 
 .emoji {

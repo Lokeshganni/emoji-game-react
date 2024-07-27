@@ -105,3 +105,12 @@
     margin-top: 25px;
   }
 }
+
+.play-again-btn:hover {
+  box-shadow: 0 0 8px #d5f7de;
+  transform: scale(1.01);
+}
+
+.play-again-btn:active {
+  transform: scale(0.96);
+}
